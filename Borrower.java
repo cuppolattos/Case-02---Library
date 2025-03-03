@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Borrower {
 
     public String name;
-    private ArrayList<Book> borrowedList = new ArrayList();
+    private ArrayList<Book> borrowedList = new ArrayList<>();
 
     public Borrower(String name) {
         this.name = name;
